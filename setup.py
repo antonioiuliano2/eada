@@ -53,7 +53,7 @@ setup(name=PACKAGE,
     packages=find_packages(),
     scripts=scripts,
     install_requires=[
-        'astropy==4.1', #required by new pyvo
+        'astropy', #required by new pyvo
         'pyvo==1.5', #for new catalogs
         'ipython==7.32.0', #'IPython.utils.io' has no attribute 'IOStream'
         'timeout_decorator',
